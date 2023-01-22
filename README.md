@@ -20,5 +20,4 @@ License
 - This work is licensed under a Creative Commons Attribution 4.0 International License.
 
 
-#[link to colab notebook](https://colab.research.google.com/drive/1ZG3FuSWM6gatp4zHYXBckv53C30E9sPy#scrollTo=fpJoLcProPtT)
 
