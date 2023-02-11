@@ -239,7 +239,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #17667f;
+  color: #A52A2A;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3030,8 +3030,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #1D809F;
-  border-color: #1D809F;
+  background-color: #A52A2A;
+  border-color: #A52A2A;
 }
 .btn-primary:hover {
   color: #fff;
@@ -7807,7 +7807,8 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  /*background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;*/
+  background-color: #A52A2A;
 }
 
 .bg-secondary {
@@ -11339,7 +11340,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #A52A2A;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -11421,7 +11422,7 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/WW_1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: auto;
@@ -11431,6 +11432,7 @@ html {
   font-weight: 700;
   display: block;
   max-width: 30rem;
+  color: white;
 }
 
 footer.footer {
@@ -11476,14 +11478,14 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/sheet-music-grey.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/violin_1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .masthead h1, .masthead .h1 {
   font-size: 4rem;
-  color: #96827E;
+  color: whitesmoke;
   margin: 0;
   padding: 0;
 }
