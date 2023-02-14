@@ -7359,6 +7359,11 @@ textarea.form-control-lg {
   margin-bottom: 0 !important;
 }
 
+.mb-7 {
+  margin-bottom: 0 !important;
+  color:#E2DFD2;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem !important;
 }
@@ -7377,6 +7382,11 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 3rem !important;
+  color: #E2DFD2;
 }
 
 .mb-auto {
@@ -7721,7 +7731,7 @@ textarea.form-control-lg {
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-light), var(--bs-text-opacity)) !important;
 }
 
 .text-success {
@@ -11557,7 +11567,7 @@ footer.footer .social-link:hover {
             clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: #A52A2A;
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
   }
