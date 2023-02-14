@@ -640,6 +640,30 @@ progress {
   margin-left: auto;
 }
 
+.collapsible {
+  background-color: #A52A2A;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  margin-bottom: 5px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;

@@ -27,7 +27,7 @@
                 <li class="sidebar-nav-item"><a href="#about">About</a></li>
                 <li class="sidebar-nav-item"><a href="#services">Data</a></li>
                 <li class="sidebar-nav-item"><a href="#portfolio">Research questions</a></li>
-                <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
+                <li class="sidebar-nav-item"><a href="#credits">Contact</a></li>
             </ul>
         </nav>
         <!-- Header-->
@@ -44,7 +44,37 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-10">
                         <h2>About</h2>
-                        <p class="lead mb-5">
+                        <button type="button" class="collapsible">Music</button>
+                        <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <button type="button" class="collapsible">War</button>
+                        <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <button type="button" class="collapsible">Experiences</button>
+                        <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+
+                        <script>
+                        var coll = document.getElementsByClassName("collapsible");
+                        var i;
+
+                        for (i = 0; i < coll.length; i++) {
+                        coll[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var content = this.nextElementSibling;
+                            if (content.style.display === "block") {
+                            content.style.display = "none";
+                            } else {
+                            content.style.display = "block";
+                            }
+                        });
+                        }
+                        </script>
+
+                        <!--<p class="lead mb-5">
                             <i>"I was up at 3.45 this morning for the famous May Morning ceremony ...
                              as the clock struck four all the people turned towards the tower & became 
                              absolutely silent. Then immediately after, as the sun was rising, the choristers 
@@ -53,7 +83,8 @@
                              everything is from what we pictured it would be, & how you had meant to be here, 
                              & how you would have loved it if you had been..."</i>
                              - Vera Brittain
-                        </p>
+                        </p>-->
+                        
                         <a class="btn btn-dark btn-xl" href="#services">Explore Data</a>
                     </div>
                 </div>
@@ -225,7 +256,7 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer text-center">
+        <footer class="footer text-center" id="credits">
             <div class="container px-4 px-lg-5">
                 <ul class="list-inline mb-5">
                     <li class="list-inline-item">
@@ -235,7 +266,7 @@
                         <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-twitter"></i></a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github"></i></a>
+                        <a class="social-link rounded-circle text-white" href="https://github.com/SafeAndSoundInfoViz/safe_and_sound"><i class="icon-social-github"></i></a>
                     </li>
                 </ul>
                 <p class="text-muted small mb-0">Copyright &copy; Your Website 2022</p>
