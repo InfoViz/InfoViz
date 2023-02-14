@@ -666,6 +666,7 @@ progress {
 .content {
   padding: 0 18px;
   margin-bottom: 5px;
+  margin-top: 8px;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
@@ -11475,6 +11476,11 @@ html {
   display: block;
   max-width: 30rem;
   color: white;
+}
+
+.callout p{
+  font-size:1.5rem;
+  color:#fcf8e3;
 }
 
 footer.footer {
