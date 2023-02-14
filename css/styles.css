@@ -64,10 +64,10 @@
   --bs-body-bg: #fff;
 }
 
-/*@font-face{
+@font-face{
   font-family: "typewriter";
-  src:url("\\jmh_typewriter\\JMH Typewriter-Thin.ttf");
-}*/
+  src:url("JMH_Typewriter.ttf");
+}
 
 *,
 *::before,
@@ -11659,6 +11659,7 @@ img {
 /* Caption text */
 .text {
   color: #212529;
+  font-family: "typewriter";
   font-size: 20px;
   /*padding: 8px 12px;*/
   position: absolute;
@@ -11708,7 +11709,3 @@ img {
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-
-/*{
-  font-family: "typewriter";
-}*/
