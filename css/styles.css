@@ -11304,8 +11304,8 @@ html {
 }
 
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 3.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
@@ -11428,6 +11428,7 @@ html {
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
+  padding-bottom: 1rem;
 }
 
 .callout {
@@ -11527,10 +11528,10 @@ footer.footer .social-link:hover {
 }
 .portfolio-item .caption .caption-content {
   color: #fff;
-  margin: auto 2rem 2rem;
+  margin: auto 1.5rem 1.5rem;
 }
 .portfolio-item .caption .caption-content h2, .portfolio-item .caption .caption-content .h2 {
-  font-size: 0.8rem;
+  font-size: 1.0rem;
   text-transform: uppercase;
 }
 .portfolio-item .caption .caption-content p {
