@@ -9,11 +9,15 @@ This project has been carried out for the exam of Information Visualization held
 
 Team
 -
-- Loredana Salvatore: knowledge extraction, data cleaning, data analysis, data visualization
-- Camila Oliveira: web development, storytelling, communication, knowledge extraction
+- **Loredana Salvatore:** knowledge extraction, data cleaning, data analysis, data visualization
+- **Camila Oliveira:** web development, storytelling, communication, knowledge extraction
 
-References
-- 
+Research Questions
+-
+- What were the most used instruments?
+- How did genres change over time?
+- Where did the performances happen?
+- How did people react to those experiences?
     
 License
 -
