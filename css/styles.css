@@ -11483,6 +11483,10 @@ html {
   color:#fcf8e3;
 }
 
+.timespan iframe{
+  margin-left: 8rem;
+}
+
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
